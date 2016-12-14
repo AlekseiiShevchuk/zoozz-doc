@@ -1,6 +1,6 @@
 **Эндпоинт для работы с Организациями, Мероприятиями и членством в них**
 
-1) **create Organization or Event**
+1) **create Organization or Event**<br>
 POST /api/community.create
 **_parameters in request body:_**
 name >>> string
