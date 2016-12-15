@@ -5,6 +5,8 @@
 <br>**_parameters in request body:_**
 <br>name >>> string
 <br>type >>> requirements="org|event"
+<br>**if you need to create Event by Organization, use this parameter:**
+<br>organization_owner_id >>> requirements="\d+", default=null
 <br>**_return_**
 <br>Object (Organization or Event)
 <br>
